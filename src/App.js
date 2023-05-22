@@ -4,6 +4,9 @@ import { Canvas, useFrame } from '@react-three/fiber'
 import { Reflector, Text, useTexture, useGLTF } from '@react-three/drei'
 
 export default function App() {
+  useEffect( () => {
+    document.title = 'Matt Davis Personal Site'
+  })
   return (
     <Canvas concurrent gl={{ alpha: false }} pixelRatio={[1, 1.5]} camera={{ position: [0, 3, 100], fov: 15 }}>
       <color attach="background" args={['black']} />
