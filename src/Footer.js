@@ -31,9 +31,9 @@ export function Footer({ date, year, link1, link2 }) {
       </div>
       <div style={{ width: '100%' }} />
       <div>
-        Projects:
-      <a href="https://aro.work/">ARO.Work</a>
-      <a href="https://github.com/Deamoner/humanism">Humanism - Modern Ideals</a>
+        Current Projects:
+      <a href="https://aro.work/">ARO.Work - Augmented Reality Office</a>
+      
       </div>
     </div>
   )
