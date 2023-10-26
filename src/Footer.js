@@ -18,8 +18,9 @@ export function Footer({ date, year, link1, link2 }) {
         <span>
           <b>Matthew Davis</b>
         </span>
-        <a href="https://www.linkedin.com/in/tech-lead-matt-davis/">Linkedin</a>
-        <a href="https://github.com/Deamoner">Github</a>
+        <a target="_blank" href="https://www.linkedin.com/in/tech-lead-matt-davis/">Linkedin</a>
+        <a target="_blank" href="https://github.com/Deamoner">Github</a>
+        <a target="_blank" href="https://discord.gg/NPRx32XsHM">Community</a>
       </div>
       <div>
         <span>{date}</span>
@@ -27,12 +28,12 @@ export function Footer({ date, year, link1, link2 }) {
       </div>
       <div>
         <span></span>
-        <span>Developer looking to push the boundaries of technology and brings humans together</span>
+        <span>Developer looking to push the boundaries of technology and bring humans together</span>
       </div>
       <div style={{ width: '100%' }} />
       <div>
         Current Projects:
-      <a href="https://aro.work/">ARO.Work - Augmented Reality Office</a>
+      <a target="_blank" href="https://aro.work/">ARO.Work - Augmented Reality Office</a>
       
       </div>
     </div>
